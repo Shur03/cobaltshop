@@ -1,0 +1,50 @@
+[
+    {
+        " name": "ProArt Studiobook",
+        "year": "2022",
+        "price": "2000000",
+        "img": "../img/proArt.png"
+    },
+    {
+        "name": "Zenbook Pro",
+        "year": "2023",
+        "price": "3500000",
+        "img": "../img/zenbook.png"
+    },
+    {
+        "name": "ExpertBook B5",
+        "year": "2021",
+        "price": "2000000",
+        "img": "../img/expert.webp"
+    },
+    {
+        "name": "ASUS Chrome book CX9",
+        "year": "2022",
+        "price": "2700000",
+        "img": "../img/chrome.png"
+    },
+    {
+        "name": "ASUS TUF Gaming F15",
+        "year": "2023",
+        "price": "3400000",
+        "img": "../img/gaming.png"
+    },
+    {
+        "name": "ProArt Studiobook 16",
+        "year": "2022",
+        "price": "1200000",
+        "img": "../img/vivo.png"
+    },
+    {
+        "name": "ASUS Pro Art OLED",
+        "year": "2023",
+        "price": "1200000",
+        "img": "../img/proArt_OLED.webp"
+    },
+    {
+        "name": "ROG Swift OLED",
+        "year": "2023",
+        "price": "2300000",
+        "img": "../img/rog.png"
+    }
+]

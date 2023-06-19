@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent news</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* #region RecentNews styles */
+        .recentNews {
+            display: block;
+            margin: 5px;
+            padding: 5px;
+            width: 400px;
+
+            background-color: #eee;
+            opacity: 1;
+
+            animation-name: fadeInAnimation;
+            animation-duration: 3s;
+        }
+
+        .recentNews-thumb {
+            display: inline-block;
+            height: 80px;
+        }
+
+        .recentNews-text {
+            display: inline-block;
+            height: 70px;
+            width: 300px;
+            margin: 0;
+            vertical-align: top;
+        }
+
+        .recentNews-header {
+            font: normal normal 12px Verdana, sans-serif;
+        }
+
+        .recentNews-stat {
+            text-align: right;
+            color: gray;
+            font-style: italic;
+        }
+
+        .recentNews-shareCount {
+            display: inline;
+        }
+
+        .recentNews-pubdate {
+            display: inline;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* #endregion  */
+    </style>
+
+</head>
+
+<body>
+
+    <main id="main"></main>
+    <script type="module" src="modules/RecentNews.js"></script>
+</body>
+
+</html>

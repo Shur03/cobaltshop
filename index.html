@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobalt Home page</title>
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1b9044548f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="topest">
+        <div class="collab">
+            <i id="1" class="fa fa-apple" style="font-size:24px"></i>
+            <i id="2" class="fa fa-android" style="font-size:24px"></i>
+            <i id="3" class='fas fa-desktop' style='font-size:24px'></i>
+        </div>
+        <img id="logo-img" src="img/logo.png" alt="logo photo">
+        <div class="hamt">
+            <a id="translate" href="#">
+                MNG/ENG
+            </a>
+            <a href="html/login.html"><i id="user" class='far fa-user-circle' style='font-size:24px'></i></a>
+        </div>
+    </section>
+    <section class="header">
+        <h1 class="logo-txt">Cob<span>alt</span></h1>
+        <nav class="top-list">
+            <ul class="top-menu">
+                <li><a href="html/addCard.html">
+                        <h3>We have now</h3>
+                    </a></li>
+                <li><a href="#">
+                        <h3>Let's order now</h3>
+                    </a></li>
+                <li><a href="#" onclick="insFunc()">
+                        <h3>Insurance</h3>
+                    </a></li>
+                <li><a href="#" onclick="myFunction()">
+                        <h3>Support section</h3>
+                    </a></li>
+                <li><a href="#" onclick="helpFunc()">
+                        <h3>Help</h3>
+                    </a></li>
+            </ul>
+
+        </nav>
+        <img src="laptops/moon.png" id="moon" style="width: 30px
+        ;" alt="dark">
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </section>
+    <section class="video">
+        <div class="video-container">
+            <video src="img/video.mp4" autoplay muted loop></video>
+        </div>
+        <div class="video-text">
+            <h1>Цочир хямдрал</h1>
+            <h3>Сүүлийн үеийн бүх зөөврийн компьютер</h3>
+            <a href="html/addCard.html" class="button">Бүгд энд</a>
+        </div>
+    </section>
+    <!--<section id="slideshow-container">-->
+    <div class="myslides">
+        <section id="text">
+            <p>Check this out</p>
+            <p>Acer Nitro, 17.3 inch 144 Hz i5-12500H 2.50 GHz. 8GB Ram 512GB SSD. GeForce® RTX™ 3050 4GB</p>
+            <h5>Learn more >>></h5>
+        </section>
+        <img id="heroimg-1" src="laptops/web1.jpg" style="width: 100%;" alt="hero-photo">
+    </div>
+    <section id="top-seller">
+        <article class="saller">
+
+            <img src="laptops/profile.png" alt="profile">
+            <h2>Saller name:</h2>
+            <input type="text" id="private-chat" placeholder="private chat" name="private-chat">
+        </article>
+        <article id="saleProduct">
+
+        </article>
+    </section>
+    <section id="swap_and_change">
+        <h1>Swap and Change</h1>
+        <section id="swap-1">
+            <img src="laptops/1-1.png" style="width: 50%;" alt="laptop-1">
+            <div class="button">
+                <input id="swap" type="button" onclick="#" value="swap">
+                <input id="switch" type="button" onclick="#" value="switch">
+            </div>
+        </section>
+    </section>
+    <section id="Location">
+        <h2>Location</h2>
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+    </section>
+    <footer id="footer">
+        <h1>Хайсан бүхнээ эндээс...</h1>
+        <div class="foot-container">
+            <div class="foot-row">
+                <div class="foot-col">
+                    <h4>Бэлэн байгаа бараанууд</h4>
+                    <ul class="col-1">
+                        <li><a href="#">дагалдах хэрэгсэлүүд</a></li>
+                        <li><a href="#">сүүлийн үеийн бараанууд</a></li>
+                        <li><a href="#">хэрэглэж байсан бараанууд</a></li>
+                        <li><a href="#">шинэ бараанууд</a></li>
+                        <li><a href="#">санал болгох бараанууд</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Зөрүү өгөж эсвэл шууд соль</h4>
+                    <ul>
+                        <li><a href="#">Үнэ дүйцүүлэн бараа солих</a></li>
+                        <li><a href="#">Үнийн зөрүү өгч бараа солих</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Тусламж авах</h4>
+                    <ul>
+                        <li><a href="#">Түгээмэл асуулт, хариулт</a></li>
+                        <li><a href="#">Мэргэжилтэнтэй холбогдох</a></li>
+                        <li><a href="#">Бусад хэрэглэгчтэй холбогдох</a></li>
+                        <li><a href="#">Гомдол гаргах</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Ачаа шалгах</h4>
+                    <ul>
+                        <li><a href="#">Ачааны байршил харах</a></li>
+                        <li><a href="#">Ачаа гарсан талаарх мэдээлэл</a></li>
+                        <li><a href="#">Ачааны ирэх хугацаа</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>НЭМЭЛТ</h4>
+                    <ul>
+                        <li><a href="#">Даатгал</a></li>
+                        <li><a href="#">Гомдол гаргах</a></li>
+                        <li><a href="#">Бараа буцаах</a></li>
+                        <li><a href="#">Салбарын мэдээлэл </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="js/main.js"></script>
+<script>
+    var moon = document.getElementById("moon");
+    moon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+            moon.src = "laptops/light.png";
+        }
+    }
+    function myMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(51.508742, -0.120850),
+            zoom: 5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+
+</script>
+
+
+
+</html>

@@ -1,0 +1,68 @@
+Сагс нэмэх 
+- Хэдэн ширхэг бараа байгааг харуулах
+- Нийт үнийн дүнг харуулах
+- Бараатай хуудсыг цэгцлэх
+- Сагс шалгах 
+	+ Жижиг гарч ирдэг байна. 
+	+ Нэмэгдсэн бараануудын мэдээлэл
+	+ Нийт үнийн дүн
+- Хайлт хийдэг болгох
+- Дарк моод дэмждэг болгох (Нүүр хуудас)
+- Дэлгэрэнгүй мэдээлэл 6-н хуудас
+	+ Барааны үзүүлэлт
+	+ Дагалдах хэрэгсэл
+	+ Сагсанд нэмэх, сагснаас хасах
+/*let listCards = [];
+function initApp() {
+products.forEach((value, key) => {
+let newDiv = document.createElement('div');
+newDiv.classList.add('item');
+newDiv.innerHTML = `
+<img src="image/${value.image}" />
+<div class="title">${value.name}</div>
+<div class="pric">${value.price.toLocaleString()}</div>
+<div class="year">${value.year}</div>
+<button onclick="addCard(${key})">Add to Card</button>
+`;
+list.appendChild(newDiv);
+})
+}
+initApp();
+
+/*return (
+'<div class='box'>
+< div class='img-box' >
+<img class='images' src=${image}></image>
+</div >
+<div class='botton'>
+<p>${name}</p>
+<h2>${price}</h2>' +
+<button onclick='addtocart("+(i++"+)'>Add to cart</button>+
+'</div>
+</div > '
+)/*/
+/*for (let i of products.data) {
+    let card = document.createElement("div");
+    card.classList.add("card", "i.category");
+    let imgContainer = document.createElement("div");
+    imgContainer.classList.add("img-container");
+    let image = document.createElement("img");
+    image.setAttribute("src", i.image);
+    imgContainer.appendChild(image);
+    card.appendChild(imgContainer);
+    document.getElementById("product").appendChild(card);
+}
+/*function addDisplay(currcarray) {
+    for (var i = 0; i.currcarray.length; i++) {
+        document.getElementById("product").innerHTML += '
+            < div class="col-md-4 mt-3" >
+                <div class="card p-3 ps-5 pe-5">
+                    <h4 class="text-capitalize text=center">${currcarray[i].name}</h4>
+                    <img src="${currarray[i].image}" ></img>
+                </div>
+        </div >
+            '
+
+
+    }
+}*/
