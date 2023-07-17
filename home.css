@@ -3,7 +3,7 @@
     background-color: var(--primary-color);
 }
 
-.top {
+.topest {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,12 +65,12 @@ span {
 
 .top-menu :hover {
     transform: scale(120%, 120%);
-    /*background-color: var(--third-color);
+    /*background-color: var(--third-color);*/
     text-decoration: underline;
     /*color: var(--primary-color);*/
 }
 
-.menu {
+.header {
     background-color: var(--primary-color);
 }
 
@@ -112,14 +112,14 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.menu #moon {
+.toplist #moon {
     /* width: 30px;*/
     justify-content: right;
     text-align: right;
     cursor: pointer;
 }
 
-.top-list {
+.toplist {
     width: 100%;
     justify-content: center;
 }
@@ -273,13 +273,12 @@ video {
     border-top: 1px solid;
 }
 
-/*footer heseg*/
-.footer {
+#footer {
     font-family: 'Darumadrop One', cursive;
     box-sizing: border-box;
 }
 
-.footer h1 {
+#footer h1 {
     padding-top: 10px;
     border-top: solid;
     text-align: center;
@@ -290,7 +289,7 @@ video {
 
 }
 
-.footer h4 {
+#footer h4 {
     padding-left: 45px;
 }
 
@@ -304,11 +303,7 @@ video {
     padding: 0;
     width: 20%;
     position: relative;
-    text-align: center;
-}
 
-.foot-col h4 {
-    font-weight: 40px;
 }
 
 .footer a {
