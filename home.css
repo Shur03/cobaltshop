@@ -39,10 +39,12 @@
     height: 40px;
     display: flex;
     align-items: center;
+    /*space-between*/
     justify-content: space-between;
+    background-color: var(--primary-color);
 }
 
-.logo-txt {
+.logoTxt {
     color: var(--secondary-color);
     font-size: 20px;
     letter-spacing: 1px;
@@ -52,9 +54,15 @@
 
 span {
     color: #0047AB;
+    ;
 }
 
-.top-menu {
+.topList {
+    width: 100%;
+    justify-content: center;
+}
+
+.topMenu {
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     justify-content: center;
@@ -63,21 +71,11 @@ span {
     width: 100%;
 }
 
-.top-menu :hover {
+.topMenu :hover {
     transform: scale(120%, 120%);
     /*background-color: var(--third-color);*/
     text-decoration: underline;
     /*color: var(--primary-color);*/
-}
-
-.header {
-    background-color: var(--primary-color);
-}
-
-nav ul {
-
-    flex: 1;
-    text-align: right;
 }
 
 :root {
@@ -91,48 +89,48 @@ nav ul {
     --secondary-color: white;
 }
 
+.topList #moon {
+    justify-content: right;
+    text-align: right;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
 nav ul li {
-
     list-style-type: none;
-    display: inline-block;
+    /*umnuh tseg */
+    display: flex;
     padding: 10px 25px;
-
 }
 
 nav ul li a {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    text-transform: capitalize;
+    /* text-transform: capitalize;
+*/
 }
 
 nav ul li a:hover {
     color: #0047AB;
     transition: .4s;
-    text-decoration: underline;
-}
-
-.toplist #moon {
-    /* width: 30px;*/
-    justify-content: right;
-    text-align: right;
-    cursor: pointer;
-}
-
-.toplist {
-    width: 100%;
-    justify-content: center;
 }
 
 nav li h3 {
     font-size: 16px;
-    text-align: center;
+    /*   text-align: center;*/
     color: var(--secondary-color);
     margin: 0;
+    display: flex;
 }
 
-.search-box {
+.searchBox {
     margin-right: 10px;
+    display: flex;
 }
 
 video {
@@ -146,103 +144,70 @@ video {
     margin: auto;
 }
 
-.video-container {
-    background-color: black;
-}
+.videoText {
 
-.video-text {
-    background-color: black;
     opacity: 0.5;
-    border: 2px solid white;
+    background-color: transparent;
     border-radius: 10%;
-    padding: 0 40px 20px;
     position: absolute;
+    align-items: center;
+    padding: 0 40px 20px;
     bottom: 8px;
     left: 16px;
-    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.video-text h1 {
+.videoText h1 {
     font-size: 50px;
     color: darkred;
-    font-weight: 400;
+    background-color: transparent;
 }
 
-.video-text h1:hover {
+.videoText h1 :hover {
     color: orange;
 }
 
-.video-text h3 {
-    padding-bottom: 10px;
-    color: white;
+.videoText h3 {
+    color: rgb(199, 68, 68);
+    background: transparent;
 }
 
-.video-text a {
+.videoText a {
     text-decoration: none;
-    border: 2px solid #fff;
     padding: 14px 70px;
     border-radius: 50px;
-    background-color: #0047AB;
-    color: lightseagreen;
+    background-color: transparent;
 }
 
-.video-text a:hover {
-    color: white;
-
-}
-
-.myslides {
-    position: relative;
+.mySlide {
+    position: absolute;
     color: var(--primary-color);
 }
 
-.myslides #text {
+.mySlide #text {
     position: absolute;
     bottom: 8px;
     right: 16px;
     text-align: right;
 }
 
-#top-seller {
+.topLaptop {
+    width: 100%;
+}
+
+#topSaller {
     position: relative;
     margin-top: 20px;
     display: flex;
     align-content: space-between;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.15);
-    background-color: aqua;
 }
 
-#top-seller .private {
-    text-align: center;
-}
-
-/*#top-seller .private input {
-    width: 100%;
-
-}
-
-#top-seller .private .placeholder {
-    align-items: center;
-}
-
-#top-seller .column {
-    text-align: center;
-    padding: 5px;
-    display: flex;
-}
-
-#top-seller .column #up {
-    align-items: stretch;
-}
-
-#top-seller .column .row {
-    border: 1px solid;
-}
-*/
 .saller img {
     width: 100%;
     border-radius: 25%;
 }
+
 
 #swap_and_change {
     text-align: center;

@@ -1,2 +1,7 @@
 https://www.youtube.com/watch?v=lgeoAUvoRJU
 https://www.youtube.com/watch?v=v1PeTDrw6OY
+https://web.microsoftstream.com/video/fbefc3a6-e109-49e6-94b0-0d8f02954292?list=user&userId=82b0f921-ebb8-4497-938d-a99d117d0c83
+database:
+https://web.microsoftstream.com/video/4746e27a-3257-4488-bf31-a369d0c51851?list=user&userId=82b0f921-ebb8-4497-938d-a99d117d0c83
+nodejs:
+https://web.microsoftstream.com/video/2bbe6197-12c8-4635-bdb7-54499687fdbe?list=user&userId=82b0f921-ebb8-4497-938d-a99d117d0c83

@@ -30,72 +30,74 @@
         </div>
     </section>
     <section class="header">
-        <h1 class="logo-txt">Cob<span>alt</span></h1>
-        <nav class="top-list">
-            <ul class="top-menu">
-                <li><a href="html/addCard.html">
-                        <h3>We have now</h3>
+        <h1 class="logoTxt">Cob<span>alt</span></h1>
+        <nav class="topList">
+            <ul class="topMenu">
+                <li><a href="#">
+                        <h3>Бэлэн бүтээгдэхүүн</h3>
                     </a></li>
                 <li><a href="#">
-                        <h3>Let's order now</h3>
+                        <h3>Захиалга</h3>
                     </a></li>
-                <li><a href="#" onclick="insFunc()">
-                        <h3>Insurance</h3>
+                <li><a href="#">
+                        <h3>Холбоо барих</h3>
                     </a></li>
-                <li><a href="#" onclick="myFunction()">
-                        <h3>Support section</h3>
-                    </a></li>
-                <li><a href="#" onclick="helpFunc()">
-                        <h3>Help</h3>
+                <li><a href="#">
+                        <h3>Тусламж</h3>
                     </a></li>
             </ul>
-
         </nav>
-        <img src="laptops/moon.png" id="moon" style="width: 30px
-        ;" alt="dark">
-        <div class="search-box">
+        <img src="img/moon.png" alt="darkMode" style="width: 30px;" id="moon">
+        <!--End search hiij ur dung gargaj irdeg bolgoh-->
+        <div class="searchBox">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </section>
     <section class="video">
-        <div class="video-container">
-            <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="videoContainer">
+            <!--Autoplay muted play==-->
+            <video src="laptop/video.mp4" autoplay muted loop></video>
         </div>
-        <div class="video-text">
+        <div class="videoText">
             <h1>Цочир хямдрал</h1>
-            <h3>Сүүлийн үеийн бүх зөөврийн компьютер</h3>
-            <a href="html/addCard.html" class="button">Бүгд энд</a>
+
+            <a href="#" id="videoButton">
+                <h3>Сүүлийн үеийн зөөврийн компьютер</h3>
+            </a>
         </div>
     </section>
-    <!--<section id="slideshow-container">-->
-    <div class="myslides">
+
+    <div class="mySlides">
         <section id="text">
             <p>Check this out</p>
-            <p>Acer Nitro, 17.3 inch 144 Hz i5-12500H 2.50 GHz. 8GB Ram 512GB SSD. GeForce® RTX™ 3050 4GB</p>
-            <h5>Learn more >>></h5>
+            <p>Acer Nitro, 17.3 inch 14 Hz
+                i5-12500H 2.50 GHz. 8GB Ram 512GB SSD.
+                GeForce® RTM 3050 4GB
+            </p>
         </section>
-        <img id="heroimg-1" src="laptops/web1.jpg" style="width: 100%;" alt="hero-photo">
+        <h5>Learn More >>></h5>
+        <img src="img/web1.jpg" alt="gaming" class="topLaptop">
     </div>
-    <section id="top-seller">
+    <section id="topSaller">
+
         <article class="saller">
-
-            <img src="laptops/profile.png" alt="profile">
-            <h2>Saller name:</h2>
-            <input type="text" id="private-chat" placeholder="private chat" name="private-chat">
+            <img src="img/profile.png" alt="Saller Member" id="sallerImg">
+            <h2>Нэр: </h2>
+            <!--placeholder gej yu boloh?-->
+            <input type="text" id="privateChat" placeholder="private chat">
         </article>
-        <article id="saleProduct">
-
-        </article>
+        <!--Ugugdluu uridchilan beldsen json.io-aas awah,Soligddpg bh-->
+        <article id="salerProduct"></article>
     </section>
-    <section id="swap_and_change">
+    <section id="swap_change">
         <h1>Swap and Change</h1>
-        <section id="swap-1">
-            <img src="laptops/1-1.png" style="width: 50%;" alt="laptop-1">
+        <div class="swapping">
+            <img src="laptop/proArt.png" style="width: 50%;" alt="laptop-1">
             <div class="button">
-                <input id="swap" type="button" onclick="#" value="swap">
-                <input id="switch" type="button" onclick="#" value="switch">
+                <input id="swapButton" type="button" value="swap" onclick="#">
+                <input type="button" id="chnageButton" value="Change" onclick="#">
             </div>
-        </section>
+        </div>
     </section>
     <section id="Location">
         <h2>Location</h2>
