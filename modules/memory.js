@@ -1,13 +1,15 @@
+export class RecentNewsItem
 class RecentNewsItem {
 
     //constructor
     constructor(news) {
         this.id = news.id;
-        this.title = news.title;
-        this.thumb = news.thumb;
-        this.thumbAlt = news.alt;
-        this.publishedDate = news.publishedDate;
-        this.shareCount = news.shareCount;
+        this.name = news.name;
+        this.year = news.year;
+        // this.price = news.price;
+        //this.publishedDate = news.publishedDate;
+        this.img = news.img;
+        this.alt = news.alt;
     }
 
     //build and return html

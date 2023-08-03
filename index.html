@@ -56,7 +56,7 @@
     <section class="video">
         <div class="videoContainer">
             <!--Autoplay muted play==-->
-            <video src="laptop/video.mp4" autoplay muted loop></video>
+            <video src="img/video.mp4" autoplay muted loop></video>
         </div>
         <div class="videoText">
             <h1>Цочир хямдрал</h1>
@@ -88,6 +88,7 @@
         </article>
         <!--Ugugdluu uridchilan beldsen json.io-aas awah,Soligddpg bh-->
         <article id="salerProduct"></article>
+        <main class="main"></main>
     </section>
     <section id="swap_change">
         <h1>Swap and Change</h1>
@@ -156,12 +157,13 @@
 
 </body>
 <script src="js/main.js"></script>
+<script src="modules/RecentNews.js"></script>
 <script>
     var moon = document.getElementById("moon");
     moon.onclick = function () {
         document.body.classList.toggle("dark-theme");
         if (document.body.classList.contains("dark-theme")) {
-            moon.src = "laptops/light.png";
+            moon.src = "img/light.png";
         }
     }
     function myMap() {
@@ -171,11 +173,20 @@
         };
         var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
     }</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
-
+<script type="module">
+    import RecentNews from 'modules/RecentNews.js';
+    //shortcut to getElementID
+    const gebi = id => document.getElementById(id);
+    //Create RecentNews object
+    const RecentNews = new RecentNews("https://api.jsonbin.io/v3/b/64cb37329d312622a38af6a9");
+    //Load content from RecentNewsURL
+    recentNews.Download("main");
+    //Download news in every 45 seconds into #main
+    setInterval(() =>
+        recentNews.Download("main")
+        , 45000);
 </script>
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+</script>
 
 </html>
