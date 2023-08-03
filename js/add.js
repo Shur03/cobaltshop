@@ -5,37 +5,37 @@ let products = [
         name: "ProArt Studiobook",
         year: "2022",
         price: "2000000",
-        image: "../img/proArt.png"
+        image: "../laptop/proArt.png"
     },
     {
         name: "Zenbook Pro",
         year: "2023",
         price: "3500000",
-        image: "../img/zenbook.png"
+        image: "../laptop/zenbook.png"
     },
     {
         name: "ExpertBook B5",
         year: "2021",
         price: "2000000",
-        image: "../img/expert.webp"
+        image: "../laptop/expert.webp"
     },
     {
         name: "ASUS Chrome book CX9",
         year: "2022",
         price: "2700000",
-        image: "../img/chrome.png"
+        image: "../laptop/chrome.png"
     },
     {
         name: "ASUS TUF Gaming F15",
         year: "2023",
         price: "3400000",
-        image: "../img/gaming.png"
+        image: "../laptop/gaming.png"
     },
     {
         name: "ProArt Studiobook 16",
         year: "2022",
         price: "1200000",
-        image: "../img/vivo.png"
+        image: "../laptop/vivo.png"
     }
 
 ];
