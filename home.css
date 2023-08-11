@@ -3,7 +3,7 @@
     background-color: var(--primary-color);
 }
 
-.topest {
+.first {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,27 +12,35 @@
     background-color: var(--primary-color);
 }
 
-.collab i {
-    margin-left: 10px;
-    padding-right: 10px;
-    border-right-style: solid;
-    border-width: 2px;
+
+.headRight {
+    height: 60px;
+    display: flex;
+    background-color: var(--primary-color);
 }
 
-.hamt a {
-    border-right-style: solid;
-    padding-right: 10px;
-    border-width: 2px;
-}
-
-.hamt i {
+.headRight i {
     margin-right: 10px;
     padding-left: 10px;
+}
+
+.headRight a {
+    border-right-style: solid;
+    padding-right: 10px;
+    border-width: 2px;
 }
 
 #logo-img {
     border-radius: 50%;
     height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first #user {
+    justify-content: right;
+    text-align: right;
+    cursor: pointer;
 }
 
 .header {
@@ -97,10 +105,13 @@ span {
 
 nav ul {
     flex: 1;
-    text-align: right;
+    text-align: left;
+    justify-content: left;
 }
 
 nav ul li {
+    text-align: left;
+    justify-content: left;
     list-style-type: none;
     /*umnuh tseg */
     display: flex;
@@ -108,13 +119,54 @@ nav ul li {
 }
 
 nav ul li a {
+    /* width: 25%;*/
     color: black;
     text-decoration: none;
     font-weight: bold;
+    text-align: left;
+    justify-content: left;
     /* text-transform: capitalize;
 */
 }
 
+/*.dropbtn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: var(--secondary-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+*/
 nav ul li a:hover {
     color: #0047AB;
     transition: .4s;
