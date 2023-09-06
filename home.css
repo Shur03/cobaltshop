@@ -62,7 +62,7 @@
 
 span {
     color: #0047AB;
-    ;
+
 }
 
 .topList {
@@ -72,7 +72,7 @@ span {
 
 .topMenu {
     font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
+    /*  display: flex;*/
     justify-content: center;
     text-align: center;
     font-size: 15px;
@@ -110,11 +110,7 @@ nav ul {
 }
 
 nav ul li {
-    text-align: left;
-    justify-content: left;
-    list-style-type: none;
-    /*umnuh tseg */
-    display: flex;
+    display: inline-block;
     padding: 10px 25px;
 }
 
