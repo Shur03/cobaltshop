@@ -1,0 +1,82 @@
+@font-face {
+    font-family: myFont;
+    src: url(BodoniFLF-Italic.tff);
+}
+
+body {
+    background-color: #6a5eb1;
+
+}
+
+.head {
+    text-decoration: underline;
+    color: black;
+    margin-top: 15px;
+}
+
+.head h1 {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-size: 35px;
+    font-family: myFont;
+    color: blue;
+
+}
+
+.head span {
+    color: black;
+}
+
+.next {
+
+    background-color: #efefef;
+    width: 27%;
+    height: 450px;
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.next:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translate(0px, -8px);
+}
+
+.next i {
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    color: #229129;
+    margin-top: 30px;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.next button {
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.butt {
+    margin-top: 400px;
+    margin-bottom: 20px;
+}
+
+.next button h3 {
+    font-size: 10px;
+    color: #229129;
+}
