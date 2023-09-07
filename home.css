@@ -101,6 +101,7 @@ span {
     justify-content: right;
     text-align: right;
     cursor: pointer;
+    overflow: hidden;
 }
 
 nav ul {

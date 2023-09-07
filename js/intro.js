@@ -1,21 +1,21 @@
 let contact = document.querySelector('.list');
 let info = [{
     name: 'Хаяг',
-    text: 'Хан-Уул дүүрэг',
+    text: 'Хан-Уул дүүрэг 120 мянгат <br>Jetro худалдааны төв, 2 давхар',
     links: 'github.com',
     logo: 'fa-solid fa-location-dot',
     idName: 'address'
 },
 {
     name: 'Facebook',
-    text: 'Computer shop Mongolia',
+    text: 'Computershop.mn',
     links: 'https://www.facebook.com/computershop.mn/',
     logo: 'fa-brands fa-facebook>',
     idName: 'fb'
 },
 {
     name: 'Instagram',
-    text: 'Computer Shop',
+    text: 'ComputerShop.mn',
     links: 'https://www.instagram.com/computershop.mn/',
     logo: 'fa-regular fa-circle-check',
     idName: 'ig'
