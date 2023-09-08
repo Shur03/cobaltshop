@@ -25,7 +25,7 @@ export class RecentNewsItem {
         gebi(`${element}_${this.id}`).addEventListener(eventType, (event) => {
             this[property] = event.target.innerHTML;
             recentNews._hasChanged = true;
-            console.log(`event:${event} \nthis=${JSON.stringify(recentNews)}`);
+            console.log(`event:${event} this=${JSON.stringify(recentNews)}`);
         });
         return this;
     }
