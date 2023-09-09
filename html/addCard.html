@@ -16,7 +16,7 @@
         <header>
             <h1>Your Shopping Cart</h1>
             <div class="shopping">
-                <img src="../img/cart-outline.svg" width="25px" height="25px" alt="ccard">
+                <i class="fa-solid fa-cart-shopping" style="color: #60f410;"></i>
                 <span class="quantity">0</span>
             </div>
         </header>
@@ -27,6 +27,15 @@
     </article>
 
     <script src="../js/add.js"></script>
+    <script>
+        const myButton = document.getElementById("buy");
+        function onClick() {
+            alert("Сагсанд нэмэгдлээ.");
+        }
+
+        // button-д "click" үйлдэлгүйгнэхэд onClick функцыг дуудах
+        myButton.addEventListener("click", onClick);
+    </script>
 </body>
 
 </html>

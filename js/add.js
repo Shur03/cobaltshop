@@ -57,7 +57,7 @@ cart.innerHTML = categories.map((item) => {
                         <li><i class="fa fa-star " aria-hidden="true"> </i></li>
                     </ul>
                
-                <button class="buy" onclick="addCard()">Add to cart</button>
+                <button id="buy" onclick="addCard()">Add to cart</button>
             </article>`
     )
 

@@ -3,13 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zahialgiin page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/zahialga.css" type="text/css">
     <link rel="website icon" type="png" href="../img/logo.png">
+    <title>Захиалга</title>
 </head>
 
 <body>
+    <article class="head">
+        <header>
 
+            <article class="title">
+                <h1>Та хүссэн бараагаа хямдаар захиалаарай</h1>
+            </article>
+        </header>
+    </article>
+    <!--<article id="cartItem">Your Cart Empty</article>-->
+    <article class="container">
+        <article id="root"></article>
+    </article>
+
+    <script src="../js/zahialga.js"></script>
+    <script>
+        const myButton = document.getElementById("buy");
+        function onClick() {
+            alert("Таны захиалга амжилттай.");
+        }
+
+        // button-д "click" үйлдэлгүйгнэхэд onClick функцыг дуудах
+        myButton.addEventListener("click", onClick);
+    </script>
 </body>
 
 </html>
