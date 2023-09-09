@@ -27,15 +27,20 @@
     </article>
 
     <script src="../js/add.js"></script>
-    <script>
-        const myButton = document.getElementById("buy");
-        function onClick() {
-            alert("Сагсанд нэмэгдлээ.");
-        }
 
-        // button-д "click" үйлдэлгүйгнэхэд onClick функцыг дуудах
-        myButton.addEventListener("click", onClick);
-    </script>
 </body>
+<script>
+
+    let clickCount = 0; // Товч дарсан тоо
+
+    // Товч дарахад дарсан тоог нэмэх үйлдэл
+    function addCard() {
+        clickCount++; // Товч дарсан тоог нэмнэ
+        // Дарсан тоог харуулах
+        let quantitySpan = document.querySelector('.quantity');
+        quantitySpan.textContent = clickCount;
+    }
+
+</script>
 
 </html>

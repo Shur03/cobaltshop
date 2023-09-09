@@ -63,28 +63,3 @@ cart.innerHTML = categories.map((item) => {
 
 
 }).join('')
-
-function addCard(a) {
-    document.getElementById("quantity").innerHTML = cart.length;
-    let j = 0;
-    if (cart.length == 0) {
-        document.getElementById("cartItem").innerHTML = "Your Cart Empty";
-    }
-    else {
-        document.getElementById("cartItem").innerHTML = cart.map((items) => {
-            var { name, year, price, image } = items;
-            return (
-                `<article class="cartItem">
-            
-                <img class="images" src=${image}>
-                                <h3>${name} </h3>
-                                <p> Тайлбар хэсэг оруулах</p>
-                                <h6>${price}</h6>>
-                                </article>`
-
-
-            )
-        }
-        )
-    }
-}
