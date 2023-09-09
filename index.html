@@ -20,9 +20,6 @@
         <h1 class="logoTxt">Cob<span>alt</span></h1>
         <img src="img/logo.png" alt="cobaltLogo" id="logo-img">
         <div class="headerRight">
-            <div class="searchBox">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
             <a href="html/login.html"><i id="user" class='far fa-user-circle' style='font-size:24px'></i></a>
         </div>
 
@@ -85,6 +82,8 @@
         <!--Ugugdluu uridchilan beldsen json.io-aas awah,Soligddpg bh-->
         <article id="salerProduct"></article>
         <main class="main"></main>
+        <script src="js/main.js"></script>
+        <script src="modules/RecentNews.js"></script>
     </section>
     <section id="swap_change">
         <h1>Swap and Change</h1>
@@ -152,8 +151,7 @@
     </footer>
 
 </body>
-<script src="js/main.js"></script>
-<script src="modules/RecentNews.js"></script>
+
 <script>
     var moon = document.getElementById("moon");
     moon.onclick = function () {
@@ -170,17 +168,18 @@
         var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
     }</script>
 <script type="module">
-    import RecentNews from 'modules/RecentNews.js';
+    import RecentNews from './modules/RecentNews.js';
     //shortcut to getElementID
     const gebi = id => document.getElementById(id);
     //Create RecentNews object
-    const RecentNews = new RecentNews("https://api.jsonbin.io/v3/b/64cb37329d312622a38af6a9");
+    const recentNews = new RecentNews("https://api.jsonbin.io/v3/b/64cb37329d312622a38af6a9");
     //Load content from RecentNewsURL
     recentNews.Download("main");
     //Download news in every 45 seconds into #main
     setInterval(() =>
         recentNews.Download("main")
         , 45000);
+    setInterval(() => recentNews.Upload(), 15000);
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
 </script>
