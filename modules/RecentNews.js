@@ -7,7 +7,6 @@ export class RecentNewsItem {
         this.img = news.img;
         this.alt = news.alt;
     }
-
     Render() {
         return `<article class="recentNews" id="recentnews_${this.id}">
         <img src="${this.img}" alt="${this.alt}" class="recentNews-imgSrc"/>
@@ -61,7 +60,7 @@ export default class RecentNews {
                 result.json()
                     .then(jsob => {
                         const lastNewsYear = this._recentNewsList.length > 0 ? this._recentNewsList[this._recentNewsList.length - 1].year : "2023-03-30";
-                        const filteredArray = jsob.filter(newsItem => Date.parse(newsItem.year) < Date.parse(lastNewsYear));
+                        const filteredArray = jsob.record.filter(newsItem => Date.parse(newsItem.year) < Date.parse(lastNewsYear));
 
                         if (filteredArray.length > 0) {
                             filteredArray.forEach(newNews => {

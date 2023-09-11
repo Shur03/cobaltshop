@@ -7,6 +7,7 @@ let products = [
         price: "2000000",
         image: "../laptop/proArt.png"
     },
+
     {
         name: "Zenbook Pro",
         year: "2023",

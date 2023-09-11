@@ -6,12 +6,8 @@
 
 }
 
-
-
 .first {
-
     display: flex;
-
     align-items: center;
 
     justify-content: space-between;
@@ -23,10 +19,6 @@
     background-color: var(--primary-color);
 
 }
-
-
-
-
 
 .headRight {
 
@@ -40,16 +32,11 @@
 
 }
 
-
-
 .headRight i {
 
     margin-right: 10px;
 
     padding-left: 10px;
-
-
-
 }
 
 
@@ -94,8 +81,6 @@
 
 }
 
-
-
 .header {
 
     height: 40px;
@@ -105,11 +90,8 @@
     align-items: center;
 
     /*space-between*/
-
     justify-content: space-between;
-
     background-color: var(--primary-color);
-
 }
 
 .logoTxt {
@@ -126,14 +108,9 @@
 
 }
 
-
-
 span {
 
     color: #0047AB;
-
-
-
 }
 
 
@@ -145,8 +122,6 @@ span {
     justify-content: center;
 
 }
-
-
 
 .topMenu {
 
@@ -164,8 +139,6 @@ span {
 
 }
 
-
-
 .topMenu :hover {
 
     transform: scale(120%, 120%);
@@ -178,8 +151,6 @@ span {
 
 }
 
-
-
 :root {
 
     --primary-color: white;
@@ -190,10 +161,7 @@ span {
 
 }
 
-
-
 .dark-theme {
-
     --primary-color: black;
 
     --secondary-color: white;
